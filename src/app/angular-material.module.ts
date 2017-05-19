@@ -12,6 +12,7 @@ import {
   MdDialogModule,
   MdGridListModule,
   MdToolbarModule,
+  MdIconModule,
 } from '@angular/material';
 
 @NgModule({
@@ -28,6 +29,7 @@ import {
     MdDialogModule,
     MdGridListModule,
     MdToolbarModule,
+    MdIconModule,
   ],
   exports: [
     MdCoreModule,
@@ -42,6 +44,7 @@ import {
     MdDialogModule,
     MdGridListModule,
     MdToolbarModule,
+    MdIconModule,
   ]
 })
 export class AngularMaterialModule { }
