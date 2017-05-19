@@ -1,8 +1,10 @@
-<h1>
-  {{title}}
-</h1>
-<nav>
-  <a routerLink="/categories">Categories</a>
-</nav>
-<hr>
-<router-outlet></router-outlet>
+<md-toolbar color="primary" class="primary-toolbar">
+  <span>{{title}}</span>
+  <span class="fill-remaining-space"></span>
+  <md-menu>
+    <button md-button md-menu-item routerLink="/categories">Categories</button>
+  </md-menu>
+</md-toolbar>
+<div class="router-content">
+  <router-outlet></router-outlet>
+</div>

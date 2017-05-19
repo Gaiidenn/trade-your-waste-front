@@ -1,7 +1,9 @@
-<div *ngIf="category;else loading">
-  <h2>{{category.name}}</h2>
-  <hr>
-  <h4>Description</h4>
-  <p>{{category.desc}}</p>
-</div>
-<ng-template #loading>Category details are loading</ng-template>
+<md-card>
+  <div *ngIf="category;else loading">
+    <h2>{{category.name}}</h2>
+    <hr>
+    <h4>Description</h4>
+    <p>{{category.desc}}</p>
+  </div>
+  <ng-template #loading>Category details are loading</ng-template>
+</md-card>

@@ -1,0 +1,11 @@
+.primary-toolbar {
+  height: 200px;
+  margin-bottom: -126px;
+  text-transform: uppercase;
+}
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+.router-content {
+  margin: 0 10%;
+}
